@@ -1,0 +1,44 @@
+$black: #191919;
+$white: #f0f3f5;
+$pink: #c90279;
+$green: #26c485;
+
+@font-face {
+    font-family: 'gramatika_black';
+    src: url(../fonts/gramatika_black.woff) format(woff);
+    src: url(../fonts/gramatika_black.woff2) format(woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'gramatika_bold';
+    src: url(../fonts/gramatika_bold.woff) format(woff);
+    src: url(../fonts/gramatika_bold.woff2) format(woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'gramatika_medium';
+    src: url(../fonts/gramatika_medium.woff) format(woff);
+    src: url(../fonts/gramatika_medium.woff2) format(woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'gramatika_regular';
+    src: url(../fonts/gramatika_regular.woff) format(woff);
+    src: url(../fonts/gramatika_regular.woff2) format(woff2);
+    font-style: normal;
+    font-weight: normal;
+}
+%text-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+    @return m#{i}n(#{$numbers});
+}
