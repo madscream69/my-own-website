@@ -19,6 +19,7 @@
     &__name {
         font-family: 'gramatika_bold';
         font-size: 16px;
+        color: $light-grey;
         text-transform: uppercase;
     }
     &__nav{
@@ -38,7 +39,7 @@
         transition: all .7s ease;
         width: 32px;
         height: 32px;
-        fill: $white;
+        fill: $light-grey;
     }
 }
 @keyframes color_change {
