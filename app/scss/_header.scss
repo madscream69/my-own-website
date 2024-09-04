@@ -10,11 +10,16 @@
         justify-content: space-between;
         align-items: center;
         padding: 10px 20px;
-        border: 1px solid $green;
+        border: 1px solid transparent;
         border-radius: 20px;
         background-color: #19191970;
         backdrop-filter: blur(20px);
+        transition: all .5s ease;
         
+    }
+    &__content--scrolled{
+        transition: all .5s ease;
+        border: 1px solid $green;
     }
     &__name {
         font-family: 'gramatika_bold';
