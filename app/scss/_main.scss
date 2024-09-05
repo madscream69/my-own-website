@@ -8,6 +8,10 @@
         // transform: translateX(-1000px);
         animation: show_title 1s ease;
     }
+    &__greetings{
+    margin-bottom: 150px;
+
+    }
     &__content-title{
         text-transform: lowercase;
         font-family: 'gramatika_regular';
